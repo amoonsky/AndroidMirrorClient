@@ -6,3 +6,5 @@ You need run this with another sdk AndroidMirrorServer
 This is a simple primitive demo version. Commercial version is now working on bug free sdk. You can use this demo for uncommerial usage. If any problem or commercial cooperation, please inform me.
 
 My Email is 76138202@qq.com.
+
+Thanks for Remote-Android app.
