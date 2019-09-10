@@ -1,0 +1,86 @@
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:fillViewport="false">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            tools:context="in.tosc.remotedroid.app.MainActivity">
+
+        <RelativeLayout
+                android:id="@+id/header_parent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+        </RelativeLayout>
+
+        <LinearLayout
+                android:id="@+id/start_server_parent"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+            android:layout_alignParentBottom="true">
+
+            <Button
+                android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/btn_default"
+                    style="@style/button"
+                    android:text="接收镜像"
+                android:onClick="startRecvScreen"
+                android:id="@+id/button"
+                android:layout_above="@+id/textView"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:id="@+id/buttonSend"
+                style="@style/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView"
+                android:layout_marginBottom="-163dp"
+                android:background="@android:drawable/btn_default"
+                android:onClick="startSendScreen"
+                android:text="发送镜像" />
+
+            <Button
+                android:id="@+id/buttonStopSend"
+                style="@style/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView"
+
+                android:background="@android:drawable/btn_default"
+                android:onClick="stopSendScreen"
+                android:text="停止发送镜像" />
+
+            <Button
+                android:id="@+id/buttonSend2"
+                style="@style/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView"
+                android:layout_marginBottom="5dp"
+                android:background="@android:drawable/btn_default"
+                android:onClick="startSendScreen"
+                android:text="发送镜像" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IP 地址: "
+                style="@style/button"
+                android:id="@+id/textView"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

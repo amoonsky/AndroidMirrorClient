@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tv.screenmirror.client.VideoWindow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="384dp"
+    android:background="@android:color/black"
+    android:padding="0dp"
+    android:layout_height="216dp"
+    android:focusable="false">
+
+    <SurfaceView
+        android:id="@+id/video_surface_view"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@color/accent_material_dark" />
+
+</com.tv.screenmirror.client.VideoWindow>

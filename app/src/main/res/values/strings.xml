@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TV ScreenMirror</string>
+    <string name="title_activity_client">Client Activity</string>
+    <string name="sendto_tv">Send ScreenMirror</string>
+</resources>

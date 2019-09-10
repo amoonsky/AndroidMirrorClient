@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tv.screenmirror.client.ClientActivity">
+
+    <!--<SurfaceView-->
+            <!--android:id="@+id/main_surface_view"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="700dp" />-->
+    <TextureView
+        android:id="@+id/main_texture_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+        <!--android:layout_height="700dp" />-->
+</RelativeLayout>
